@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.numButton {
+  height: 25%;
+  width: 20%;
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+  background-color: darkgray;
+  font-size: 2rem;
+  font-family: 'Segoe UI';
+  color: #FFF;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.05), inset 0 1px 0 0 rgba(255,255,255,.45), inset 0 -1px 0 0 rgba(255,255,255,.15), 0 1px 0 0 rgba(255,255,255,.15);
+  text-shadow: 0 1px rgba(255,255,255,.4);
+}
+
+.numButton:hover {
+  background-color: #a1a1a1;
+}
+
+.opButton:hover {
+  background-color: rgba(80, 1, 73, 0.904);
+}
+
+.title{
+  text-align: center;
+  color: black;
+  font-size: 37pt;
+  font-family: 'Segoe UI';
+  font-weight: 290;
+}
+
+.opButton {
+  height: 25%;
+  width: 20%;
+  background-color: rgb(75, 36, 0);
+  border: 1px solid #c4c4c4;
+  background-color: rgb(122, 0, 133);
+  font-size: 2rem;
+  font-family: 'Segoe UI';
+  color: #FFF;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.05), inset 0 1px 0 0 rgba(255,255,255,.45), inset 0 -1px 0 0 rgba(255,255,255,.15), 0 1px 0 0 rgba(255,255,255,.15);
+  text-shadow: 0 1px rgba(255,255,255,.4);
+}
+
+.commandButton {
+  height: 25%;
+  width: 20%;
+  background-color: rgb(37, 0, 44);
+  border: 1px solid #c4c4c4;
+  background-color: rgb(56, 0, 61);
+  font-size: 2rem;
+  font-family: 'Segoe UI';
+  color: #FFF;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.05), inset 0 1px 0 0 rgba(255,255,255,.45), inset 0 -1px 0 0 rgba(255,255,255,.15), 0 1px 0 0 rgba(255,255,255,.15);
+  text-shadow: 0 1px rgba(255,255,255,.4);
+}
+
+.commandButton:hover {
+  background-color: rgba(46, 0, 42, 0.904);
+}
+
+.calcDisplayDiv {
+  font-size: 48pt;
+  text-align: right;
+  width: 100%;
+  outline:0px  rgb(255, 255, 255);
+  outline-style: solid;
+  background-color: grey;
+  font-family: 'Segoe UI';
+}
+
+.frame {
+  border: 5px solid rgb(133, 133, 133);
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: fit-content;
+  background-color: lightgray;
+}
+
+.buttonFrame{
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.copyIcon {
+  width: 16%;
+  height: 31%;
+}
+
+.panel {
+  width: 30%;
+  height: 10vh;
+  object-fit: fill;
+  text-align: left;
+  position: relative;
+}
